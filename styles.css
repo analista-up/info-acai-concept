@@ -1,0 +1,49 @@
+* {
+    font-family: consolas, monaco, monospace;
+}
+
+body, div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+td {
+    padding: 8px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
